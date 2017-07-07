@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Clash of Clans Hack</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400">
+    <link rel="stylesheet" href="https://cdn.unpacker.org/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.min.css">
+</head>
+
+<body>
+    <div class="bg-content">
+        <div class="bg-video hidden-xs">
+            <video
+                preload="metadata"
+                loop
+                autoplay
+                muted="true"
+                id="video-loop">
+                <source type="video/mp4" src="video/loop.mp4">
+            </video>
+        </div>
+
+        <div class="bg-image visible-xs"></div>
+
+        <div class="bg-overlay"></div>
+    </div>
+
+    <nav class="navbar navbar-custom navbar-fixed-top">
+        <div class="container">
+            <a
+                href="javascript:;"
+                class="nav-logo logo-clashofclans">
+            </a>
+        </div>
+    </nav>
+
+    <div id="site-content">
+        <div class="form-container">
+            <div class="panel panel-custom panel-fix">
+                <div class="panel-heading">
+                    <p class="h4">
+                        Clash of Clans Hack
+                    </p>
+                </div>
+
+                <div class="panel-body">
+                    <div class="abs-container hide-it" id="console-container">
+                        <div class="abs-inner"></div>
+                    </div>
+
+                    <form action="#" id="form-request">
+                        <div class="form-group form-group-lg">
+                            <label for="form-user">Username</label>
+                            <input
+                                type="text"
+                                name="form-user"
+                                id="form-user"
+                                class="form-control"
+                                placeholder="sample_user"
+                            />
+                        </div>
+
+                        <div class="form-group form-group-lg">
+                            <label for="form-resource">Amount of Gems</label>
+                            <input
+                                type="text"
+                                name="form-resource"
+                                id="form-resource"
+                                class="form-control"
+                                placeholder="14000"
+                            />
+                        </div>
+
+                        <button
+                            type="submit"
+                            name="form-submit"
+                            data-loading-text="Processing Data..."
+                            id="form-submit"
+                            class="btn btn-lg btn-block btn-primary">
+                            Submit Form
+                        </button>
+                    </form>
+
+                    <div class="abs-container hide-it" id="agreement-container">
+                        <div class="abs-inner flex">
+                            <div>
+                                <p>
+                                    Do you agree to complete one short sponsored offer to gain requested Clash of Clans resources on your account.
+                                </p>
+
+                                <div class="form-group">
+                                    <button type="button" class="btn btn-lg btn-primary btn-block" data-loading-text="<span class='fa fa-fw fa-spin fa-circle-o-notch'></span> Please wait..." onclick="window.App.locker.call()">
+                                        I Agree
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.App = {
+            locker: function () {
+                alert('demo');
+            },
+            consoleMessages: [
+                '<p class="lead text-primary">',
+                    '<ins>Please be patient and do not reload this page...</ins>',
+                    '<ins>2</ins>',
+                '</p>',
+                'Initializing process...',
+                '<ins>1.25</ins>',
+                '<span class="text-success progress-status">',
+                    '[OK]',
+                '</span>',
+                '<br>',
+                'Establishing database connection...',
+                '<ins>1.40</ins>',
+                '<span class="text-success progress-status">',
+                    '[OK]',
+                '</span>',
+                '<br>',
+                'Processing user request...',
+                '<ins>2.20</ins>',
+                '<span class="text-success progress-status">',
+                    '[SUCCESS]',
+                '</span>',
+                '<br>',
+                'Storing form request into queue...',
+                '<ins>1.5</ins>',
+                '<br>',
+                'Username: <span id="form-user-get" class="text-muted">{data}</span>',
+                '<br>',
+                'Resources: <span id="form-resource-get" class="text-muted">{data}</span>',
+                '<br>',
+                '<ins>2</ins>',
+                'Your request has been stored into queue...',
+                '<br>',
+                'User verification required...',
+                '<span class="text-warning progress-status">',
+                    '[PENDING]',
+                    '<ins>2</ins>',
+                '</span>'
+            ],
+        };
+    </script>
+
+    <script src="https://cdn.unpacker.org/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdn.unpacker.org/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/plugins.min.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+</html>
